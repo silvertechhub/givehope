@@ -13,7 +13,7 @@ export default function TopDonors() {
             We appreciate every one who has contributed to this program so far, and wish to use this medium 
             to thank you all. List of all our donors can be found below.
         </p>
-        <a href='#' className='text-customYellow my-0 mx-2'>See All Donors</a>
+        <div className='text-center'><a href='#' className='text-customYellow my-0 mx-2'>See All Donors</a></div>
         </div>
         <div className='grid md:grid-cols-2 lg:grid-cols-4'>
             <div>

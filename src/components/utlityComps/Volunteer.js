@@ -11,15 +11,15 @@ export default function Volunteer() {
             <h2 className='text-3xl text-white'>Become a Volunteer</h2>
             <form>
                 <div className='my-8'>
-                <input type='text' placeholder="Enter your Name" className='w-80 bg-transparent border-2 border-white py-2 pl-2' />
+                <input type='text' placeholder="Enter your Name" className='focus:bg-zinc-200 w-80 bg-transparent border-2 border-white py-2 pl-2' />
                 </div>
                 <div className='my-8'>
-                <input type='email' placeholder="Enter your email" className='w-80 bg-transparent border-2 border-white py-2 pl-2' />
+                <input type='email' placeholder="Enter your email" className='focus:bg-zinc-200 w-80 bg-transparent border-2 border-white py-2 pl-2' />
                 </div>
                 <div className='my-8'>
-                <input type='text' placeholder="Enter your message" className='w-80 border-2 border-white bg-transparent py-2 pl-2' />
+                <input type='text' placeholder="Enter your message" className='focus:bg-zinc-200 w-80 border-2 border-white bg-transparent py-2 pl-2' />
                 </div>
-                <input type='submit' className='bg-white w-40 rounded-xl' value='Submit' />
+                <input type='submit' className='bg-white w-40 rounded-xl hover:bg-zinc-200' value='Submit' />
             </form>
         </div>
     </div>
