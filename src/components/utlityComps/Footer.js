@@ -4,7 +4,7 @@ import { LocationMarkerIcon, PhoneIcon, MailIcon } from '@heroicons/react/solid'
 export default function Footer() {
   return (
     <div className='bg-zinc-700 w-full  grid grid-cols-2 text-white'>
-        <div className='py-20 px-20'>
+        <div className='py-20 px-8 md:px-20'>
             <h1 className='text-3xl'>About us</h1>
             <p className='leading-10'>
             Far far away, behind the word mountains, 
@@ -14,7 +14,7 @@ export default function Footer() {
             </p>
             <a href='#' className='text-customYellow'> Learn more</a>
         </div>
-        <div className='py-20 px-20'>
+        <div className='py-20 md:px-20'>
             <h1 className='text-3xl'>Connect with us</h1>
             <div className='py-6'>
                 <LocationMarkerIcon className='w-6 text-customYellow' />

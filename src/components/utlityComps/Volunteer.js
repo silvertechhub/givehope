@@ -3,7 +3,7 @@ import volunteer from '../../assets/volunteer.jpg'
 
 export default function Volunteer() {
   return (
-    <div className='bg-yellow-400 w-full h-[430px] grid md:grid-cols-2'>
+    <div className='bg-yellow-400 w-full md:h-[430px] grid md:grid-cols-2'>
         <div>
             <img className=' h-[340px] px-10 pt-8 rounded-2xl' src={volunteer} />
         </div>

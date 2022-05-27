@@ -12,7 +12,7 @@ export default function Contact() {
       <img src={helpingHand} className="w-full h-screen object-cover absolute mix-blend-overlay" />
       <h1 className='text-6xl'>Get In Touch</h1>
       </div>
-      <section className='py-20 px-10'>
+      <section className='py-20 px-4 md:px-10'>
         <div className='grid md:grid-cols-2'>
           <div>
           <form>
@@ -28,8 +28,9 @@ export default function Contact() {
                 <input type='submit' className='bg-customYellow h-10 text-white w-40 rounded-xl hover:bg-zinc-200' value='Submit' />
             </form>
           </div>
-          <div className=''>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10938209.494752772!2d22.208320093863712!3d47.98547154770034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d1d9c154700e8f%3A0x1068488f64010!2sUkraine!5e0!3m2!1sen!2sng!4v1651234784552!5m2!1sen!2sng" width="600" 
+          <div className='px-3'>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10938209.494752772!2d22.208320093863712!3d47.98547154770034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d1d9c154700e8f%3A0x1068488f64010!2sUkraine!5e0!3m2!1sen!2sng!4v1651234784552!5m2!1sen!2sng"
+           width="350" 
           height="450" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>

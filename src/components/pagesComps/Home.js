@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import Navbar from '../utlityComps/Navbar'
-import displacedChildren from '../../assets/displacedChildren.jpg'
+import ukraineBoy from '../../assets/ukraineBoy.jpg'
 import { LightBulbIcon, CashIcon, UserGroupIcon } from '@heroicons/react/solid'
 import TopDonors from '../utlityComps/TopDonors'
 import SuccessStory from '../utlityComps/SuccessStory'
@@ -17,9 +17,9 @@ export default function Home() {
         <Navbar  className='fixed'/>
         <div className='w-full h-screen flex items-center justify-center 
         bg-gradient-to-tr from-zinc-500 to-zinc-500 relative'>
-            <img src={displacedChildren} className='w-full h-screen object-cover absolute mix-blend-overlay' />
+            <img src={ukraineBoy} className='w-full h-screen object-cover absolute mix-blend-overlay' />
             <h1 className='text-6xl text-center font-bold'>
-               <span className='text-customBlue'> Give Hope to the Dis</span>
+               <span className='text-blue-900'> Give Hope to the Dis</span>
                <span className='text-customYellow'>placed Children <br/> in Ukraine</span>
             </h1>
         </div>
@@ -37,7 +37,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className='px-10'>
-                    <h2 className='text-bold text-6xl px-8'>Who Are We?</h2>
+                    <h2 className='text-bold text-6xl px-8 pt-10'>Who Are We?</h2>
                     <p className='px-8 py-5 leading-10 text-lg'>
                     Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
                      there live the blind texts. Separated they live in Bookmarksgrove right at the coast of 
@@ -81,7 +81,7 @@ export default function Home() {
         <SuccessStory />
         <section className='my-10 px-8'>
             <h3 className='text-2xl pl-20'>Latest News</h3>
-            <div className='grid md:grid-cols-3 p-20'>
+            <div className='grid md:grid-cols-3 md:p-20'>
                 <div className='px-10'>
                 <img src={news1} />
                 <p className='text-lg'>Make Donations</p>

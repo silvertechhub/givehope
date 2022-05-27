@@ -4,6 +4,7 @@ import donate from '../../assets/donate.png'
 import GoFundMe from '../../assets/GoFundMe.png'
 import { CreditCardIcon } from '@heroicons/react/solid'
 import TopDonors from '../utlityComps/TopDonors';
+import Footer from '../utlityComps/Footer';
 
 export default function Donate() {
   return (
@@ -13,7 +14,7 @@ export default function Donate() {
         bg-gradient-to-tr from-zinc-500 to-zinc-500 relative'>
             <img src={donate} className='w-full h-screen object-cover absolute mix-blend-overlay' />
             <h1 className='text-6xl text-center font-bold'>
-               <span className='text-customBlue'> Give Hope to the Dis</span>
+               <span className='text-blue-900'> Give Hope to the Dis</span>
                <span className='text-customYellow'>placed Children <br/> in Ukraine</span>
             </h1>
         </div>
@@ -28,7 +29,7 @@ export default function Donate() {
                   </div>
                   <p className='text-3xl pt-20 underline underline-offset-1'>Go Fund Me</p>
                 </div>
-                <div className='w-auto h-72 bg-blue-200  p-6'>
+                <div className='w-auto h-72 bg-blue-200 my-10 p-6'>
                 <div className='h-[70px] w-[70px] rounded-full bg-white'>
                 <CreditCardIcon />
                   </div>
@@ -56,6 +57,7 @@ export default function Donate() {
           </div>
         </section>
       <TopDonors />
+      <Footer />
     </div>
   )
 }

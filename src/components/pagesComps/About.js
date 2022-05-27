@@ -17,7 +17,7 @@ export default function About() {
         bg-gradient-to-tr from-zinc-500 to-zinc-500 relative'>
             <img src={displacedChildren} className='w-full h-screen object-cover absolute mix-blend-overlay' />
             <h1 className='text-6xl text-center font-bold'>
-               <span className='text-customBlue'> Give Hope to the Dis</span>
+               <span className='text-blue-900'> Give Hope to the Dis</span>
                <span className='text-customYellow'>placed Children <br/> in Ukraine</span>
             </h1>
         </div>
@@ -47,7 +47,7 @@ export default function About() {
           </div>
         </section>
         <section>
-        <div className='px-10 my-10'>
+        <div className='px-20 md:px-10 my-10'>
           <h2 className='text-5xl'>Leadership</h2>
           <div className='grid md:grid-cols-2 lg:grid-cols-4 py-10'>
             <div>

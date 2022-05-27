@@ -7,7 +7,7 @@ import anonymous from '../../assets/anonymous.jpg'
 export default function TopDonors() {
   return (
     <div className='my-10 px-10 '>
-        <div className='px-40 py-10 items-center'>
+        <div className='md:px-40 py-10 items-center'>
         <h1 className='text-center text-2xl '>Top Donors</h1>
         <p className='text-center text-xl text-zinc-700 pt-10'>
             We appreciate every one who has contributed to this program so far, and wish to use this medium 
@@ -15,7 +15,7 @@ export default function TopDonors() {
         </p>
         <div className='text-center'><a href='#' className='text-customYellow my-0 mx-2'>See All Donors</a></div>
         </div>
-        <div className='grid md:grid-cols-2 lg:grid-cols-4'>
+        <div className='grid md:grid-cols-2 lg:grid-cols-4 px-10'>
             <div>
                 <img className='w-[200px] h-[200px] imgSpace' src={img3} />
                 <h1 className='py-4 px-10 text-lg'>Jordan Salvator</h1> 

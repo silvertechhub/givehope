@@ -20,8 +20,8 @@ export default function HowItWorks() {
             </h1>
         </div>
         <section>
-          <div className='grid grid-cols-2 px-10 my-20'>
-            <div className='px-10'>
+          <div className='grid md:grid-cols-2 px-10 my-20'>
+            <div className='md:px-10'>
               <h1 className='text-3xl text-left'>Create Your Fundraising Campagin</h1>
               <p className='text-left text-zinc-600 pt-8 leading-10'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, 
                 there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the
@@ -31,7 +31,7 @@ export default function HowItWorks() {
               <img className='' src={moneyInHand}/>
             </div>
           </div>
-          <div className='grid grid-cols-2 px-10 my-20'>
+          <div className='grid md:grid-cols-2 px-10 my-20'>
           <div>
               <img className='' src={fandf}/>
             </div>
