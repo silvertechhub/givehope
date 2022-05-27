@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/givehope/static/css/main.506398c3.css",
+    "main.js": "/givehope/static/js/main.864c2367.js",
+    "static/media/donate.png": "/givehope/static/media/donate.77e10141f4b10cd3d521.png",
+    "static/media/fandf.png": "/givehope/static/media/fandf.fc74091a954d4a6d1463.png",
+    "static/media/smiles.png": "/givehope/static/media/smiles.150267bcc9db17e3d662.png",
+    "static/media/page2.jpg": "/givehope/static/media/page2.02591af46e9f05c5bc90.jpg",
+    "static/media/helpingHand.png": "/givehope/static/media/helpingHand.546d04e0dad06a76c013.png",
+    "static/media/displacedChildren.jpg": "/givehope/static/media/displacedChildren.dcea36f949305dad3354.jpg",
+    "static/media/news1.jpg": "/givehope/static/media/news1.ae3888e96740898819d5.jpg",
+    "static/media/moneyInHand.webp": "/givehope/static/media/moneyInHand.96b68c0237a968c7404f.webp",
+    "static/media/news3.jpg": "/givehope/static/media/news3.58e65926cbf6b45d21c4.jpg",
+    "static/media/volunteer.jpg": "/givehope/static/media/volunteer.439658d3aa60471b6277.jpg",
+    "static/media/news2.webp": "/givehope/static/media/news2.7aeeb03e86c079bd475c.webp",
+    "static/media/ukraineBoy.jpg": "/givehope/static/media/ukraineBoy.8299419064ba3273ee3f.jpg",
+    "static/media/GoFundMe.png": "/givehope/static/media/GoFundMe.b964fb094016f582a9f4.png",
+    "static/media/img3.webp": "/givehope/static/media/img3.278b9bd6139892fcd9a8.webp",
+    "static/media/img4.webp": "/givehope/static/media/img4.fd17d788bb063dc47e9b.webp",
+    "static/media/img2.webp": "/givehope/static/media/img2.fe5530ab756cbff55c65.webp",
+    "static/media/anonymous.jpg": "/givehope/static/media/anonymous.fcba9561bbea1f5e6a0d.jpg",
+    "index.html": "/givehope/index.html",
+    "main.506398c3.css.map": "/givehope/static/css/main.506398c3.css.map",
+    "main.864c2367.js.map": "/givehope/static/js/main.864c2367.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.506398c3.css",
+    "static/js/main.864c2367.js"
+  ]
+}
